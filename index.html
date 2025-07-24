@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Sanketh Anchan - Dashboard </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="images/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
+    id="main-font-link">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylemain.css">
+  <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" />
+</head>
+
+<body>
+
+  <nav class="pc-sidebar ">
+    <div class="navbar-wrapper">
+      <div class="m-header">
+        <a href="#" class="b-brand text-primary">
+          <img src="images/logo.png" class="img-fluid logo-lg logo-dash" alt="logo">
+        </a>
+      </div>
+      <div class="navbar-content sidebar-bg">
+        <ul class="pc-navbar ">
+          <li class="pc-item">
+            <a href="#" class="pc-link">
+              <img src="images/avatar-1.png" alt="user-image" class="side-name">
+              <span class="pc-mtext p-left">David Reinauer</span>
+            </a>
+          </li>
+          <li class="pc-item pc-hasmenu">
+            <a href="#!" class="pc-link"><span class="pc-mtext">AR Management </span><span class="pc-arrow"><i
+                  data-feather="chevron-right"></i></span></a>
+            <ul class="pc-submenu">
+              <li class="pc-item active">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/icon-home.svg" alt="icon" class="iconleft"></span>Home
+                </a>
+              </li>
+              <li class="pc-item ">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/insert_chart.svg" alt="icon" class="iconleft"></span>My
+                  portfolio
+                </a>
+              </li>
+              <li class="pc-item">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/pie_chart_outline2.svg" alt="icon"
+                      class="iconleft"></span>Risk
+                  Metrics
+                </a>
+              </li>
+              <li class="pc-item">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/scatter_plot.svg" alt="icon"
+                      class="iconleft"></span>Collection Units
+                </a>
+              </li>
+              <li class="pc-item">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/dynamic_feed.svg" alt="icon" class="iconleft"></span>My
+                  accounts
+                </a>
+              </li>
+              <li class="pc-item">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/insert_chart.svg" alt="icon"
+                      class="iconleft"></span>Credit/Order Holds
+                </a>
+              </li>
+              <li class="pc-item">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/pie_chart_outline2.svg" alt="icon"
+                      class="iconleft" /></span>Cash
+                  Application
+                </a>
+              </li>
+              <li class="pc-item">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/scatter_plot.svg" alt="icon" class="iconleft"></span>Claims
+                  Management
+                </a>
+              </li>
+              <li class="pc-item">
+                <a class="pc-link pc-linka" href="#!">
+                  <span class="pc-menuicon"><img src="images/dynamic_feed.svg" alt="icon"
+                      class="iconleft"></span>Reports
+                </a>
+              </li>
+
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- [ Sidebar Menu ] end --> <!-- [ Header Topbar ] start -->
+  <header class="pc-header">
+
+    <div class="header-wrapper">
+      <div class="ms-auto">
+        <ul class="list-unstyled">
+
+
+
+          <li class="dropdown pc-h-item d-inline-flex d-md-none">
+            <a class="pc-head-link dropdown-toggle arrow-none m-0" data-bs-toggle="dropdown" href="#" role="button"
+              aria-haspopup="false" aria-expanded="false">
+              <i data-feather="search"></i>
+            </a>
+
+          </li>
+          <li class="pc-h-item d-none d-md-inline-flex">
+
+            <div class="top-search-container">
+              <input type="text" class="top-search-input" placeholder="What can we help you find?">
+              <select class="top-dropdown">
+                <option value="" class="select-text">Customer Name </option>
+                <option value="books">Books</option>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+              </select>
+              <button class="top-search-button"> <i data-feather="search"></i></button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- [Mobile Media Block end] -->
+      <div class="dropdown pc-h-item header-user-profile">
+        <ul class="list-unstyled">
+
+          <li class="dropdown pc-h-item">
+            <a class="pc-head-link " href="#">
+              <img src="images/pie_chart_outline.svg" alt="icon" class="top-icon border-right" />
+            </a>
+          </li>
+          <li class="dropdown pc-h-item">
+            <a class="pc-head-link " href="#">
+              <img src="images/brightness_low.svg" alt="icon" class="top-icon border-right" />
+            </a>
+          </li>
+          <li class="dropdown pc-h-item">
+            <a class="pc-head-link " href="#">
+              <img src="images/mark_chat_read.svg" alt="icon" class="top-icon border-right" />
+            </a>
+          </li>
+          <li class="dropdown pc-h-item">
+            <a class="pc-head-link " href="#">
+              <img src="images/contact_support.svg" alt="icon" class="top-icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- [ Header ] end -->
+
+
+
+
+  <!-- [ Main Content ] start -->
+  <div class="pc-container">
+    <div class="pc-content">
+
+      <div class="cols-rows">
+        <ul class="list-unstyled ">
+          <li class="pc-h-item pc-sidebar-collapse">
+            <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+              <img src="images/arrow.svg" alt="icon" class="arrow-iconz ">
+            </a>
+          </li>
+          <li class="pc-h-item pc-sidebar-popup">
+            <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+              <img src="images/calendar_view_day.svg" alt="icon" class="card-icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+      <!-- [ breadcrumb ] start -->
+      <div class="page-header">
+        <div class="page-block">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+
+              <div class="page-header-title">
+                <h5 class="m-b-10">Your AR Summary</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p class="time-p text-end"> Updated as of: Jan 14, 2025 03:00 AM </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- [ breadcrumb ] end -->
+      <!-- [ Main Content ] start -->
+
+      <!-- 5 Highlights start -->
+      <div class="row mb-4">
+        <div class="col-md-12">
+          <div class="box-row">
+            <div class="highlights-box">
+              <div class="card-body">
+                <div class="card-inner">
+                  <h6 class="mb-2 f-w-400 text-muted">Accounts</h6>
+                  <h4 class="mbtm">20,022 </h4>
+                </div>
+              </div>
+            </div>
+            <div class="highlights-box">
+              <div class="card-body">
+                <div class="card-inner">
+                  <h6 class="mb-2 f-w-400 text-muted">Total Balance (USD)</h6>
+                  <h4 class="mbtm">$ 168.55M </h4>
+                </div>
+              </div>
+            </div>
+            <div class="highlights-box">
+              <div class="card-body">
+                <div class="card-inner">
+                  <h6 class="mb-2 f-w-400 text-muted">Total Net Exposure</h6>
+                  <h4 class="mbtm">USD 158.14M </h4>
+                </div>
+              </div>
+            </div>
+            <div class="highlights-box">
+              <div class="card-body">
+                <div class="card-inner">
+                  <h6 class="mb-2 f-w-400 text-muted">Total Credit Limit</h6>
+                  <h4 class="mbtm">USD 33.30B</h4>
+                </div>
+              </div>
+            </div>
+            <div class="highlights-box">
+              <div class="card-body">
+                <div class="card-inners">
+                  <h6 class="mb-2 f-w-400 text-muted">Accounts Past Review</h6>
+                  <h4 class="mbtm">19,959 </h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 col-lg-6 col-xl-7">
+
+          <div class="card tab-cards">
+            <div class="card-body">
+              <!-- Left Section Start -->
+              <div class="col-md-12 col-xl-12">
+                <a href="#"
+                  class="list-group-item list-group-item-action d-flex align-items-center justify-content-between">
+                  <span class="ctitle mb-0"><img src="images/icon1.svg" alt="icon" class="card-icon" /> Activity
+                    Overview</span>
+                  <select class="card-dropdowns">
+                    <option value="" class="select-text">This month </option>
+                    <option value="books">Last Month </option>
+                    <option value="electronics">New Month</option>
+                    <option value="clothing">Month</option>
+                  </select>
+                </a>
+                <!-- Tab Start -->
+                <ul class="nav nav-pills mb-3 mt-3 nav-justified tab-background" id="pills-tab" role="tablist">
+                  <li class="nav-item flex-sm-fill" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                      aria-selected="true">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_877_56)">
+                          <path
+                            d="M18 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM9 4H11V9L10 8.25L9 9V4ZM18 20H6V4H7V13L10 10.75L13 13V4H18V20Z"
+                            fill="#525252" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_877_56">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      Claims
+                    </button>
+                  </li>
+                  <li class="nav-item flex-sm-fill" role="presentation">
+                    <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                      aria-selected="false">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_877_56)">
+                          <path
+                            d="M18 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM9 4H11V9L10 8.25L9 9V4ZM18 20H6V4H7V13L10 10.75L13 13V4H18V20Z"
+                            fill="#525252" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_877_56">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      Collections
+                    </button>
+                  </li>
+                  <li class="nav-item flex-sm-fill" role="presentation">
+                    <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                      aria-selected="false">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_877_56)">
+                          <path
+                            d="M18 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM9 4H11V9L10 8.25L9 9V4ZM18 20H6V4H7V13L10 10.75L13 13V4H18V20Z"
+                            fill="#525252" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_877_56">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      Order
+                      Holds
+                    </button>
+                  </li>
+                </ul>
+
+                <div class="tab-content" id="pills-tabContent">
+
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+                    Check Order Holds <br /><br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque explicabo deleniti temporibus
+                    distinctio soluta iste reprehenderit aut sunt natus quas quis perspiciatis mollitia consequuntur
+                    alias est, repellat exercitationem voluptatem esse.
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    Check Order Holds <br /><br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto unde adipisci autem, labore
+                    necessitatibus, facere dolores voluptatem dolorem dolorum sint nesciunt explicabo dicta voluptas
+                    natus maiores dolor! Culpa, eligendi!
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="mt-2">
+                      <div class="card card-remve-btm p-4">
+                        <div class="d-flex justify-content-between align-items-center  bottom-border">
+                          <a href="#"
+                            class="list-group-item list-group-item-action d-flex align-items-center justify-content-between">
+                            <span class="ctitle mb-0"> Total Order holds</span>
+                            <span class="f-bold"> <span class="badge bg-secondary">Last 1500 orders</span>
+                              $10,00,000</span>
+                          </a>
+                        </div>
+
+                        <div class="row">
+                          <!-- Hold Code -->
+                          <div class="col-md-6 text-center ">
+                            <h6>Hold Code</h6>
+                            <div class="chart-container">
+                              <canvas id="holdChart"></canvas>
+                            </div>
+                            <ul class="list-unstyled mt-3">
+                              <li class="donut-details">
+                                <div>
+                                  <span class="legend-box" style="background-color: #7C3AED;"></span>
+                                  FDP
+                                </div>
+                                <p> <b> 500 orders </b> <strong>$200000</strong></p>
+                              </li>
+                              <li class="donut-details">
+                                <div>
+                                  <span class="legend-box" style="background-color: #14B8A6;;"></span>
+                                  NQM
+                                </div>
+                                <p> <b> 800 orders </b> <strong>$150000</strong></p>
+                              </li>
+                              <li class="donut-details">
+                                <div>
+                                  <span class="legend-box" style="background-color: #FACC15;"></span>
+                                  FDP
+                                </div>
+                                <p> <b> 500 orders </b> <strong>$650000</strong></p>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <!-- Fail Code -->
+                          <div class="col-md-6 text-center ">
+                            <h6>Fail Code</h6>
+                            <div class="chart-container">
+                              <canvas id="failChart"></canvas>
+                            </div>
+                            <ul class="list-unstyled mt-3">
+                              <li class="donut-details">
+                                <div>
+                                  <span class="legend-box" style="background-color: #F43F5E;"></span>
+                                  FDP
+                                </div>
+                                <p> <b> 500 orders </b> <strong>$200000</strong></p>
+                              </li>
+                              <li class="donut-details">
+                                <div>
+                                  <span class="legend-box" style="background-color: #FB923C;"></span>
+                                  NQM
+                                </div>
+                                <p> <b> 800 orders </b> <strong>$150000</strong></p>
+                              </li>
+                              <li class="donut-details">
+                                <div>
+                                  <span class="legend-box" style="background-color: #22C55E;"></span>
+                                  FDP
+                                </div>
+                                <p> <b> 500 orders </b> <strong>$650000</strong></p>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- Tab End// -->
+            </div>
+          </div>
+
+          <!-- Recent Activities Start -->
+          <div class="card tab-cards">
+            <div class="card-body">
+              <a href="#"
+                class="list-group-item list-group-item-action d-flex align-items-center justify-content-between bottom-border">
+                <span class="ctitle mb-0"><img src="images/icon1.svg" alt="icon" class="card-icon"> Recent Activities
+                </span>
+                <span class="viewall"> View All </span>
+              </a>
+              <table class="table table-class">
+                <thead>
+                  <tr>
+                    <th scope="col">Activity</th>
+                    <th scope="col">A/C</th>
+                    <th scope="col">Customer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <b>Completed document receipt checklist </b> <br />
+                      <span> 24 Sept 2024 | 01:12 PM</span>
+                    </td>
+                    <td>REQ0170423</td>
+                    <td>Amazon, Inc.</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <b>Completed document receipt checklist </b> <br />
+                      <span> 24 Sept 2024 | 01:12 PM</span>
+                    </td>
+                    <td>REQ0170423</td>
+                    <td>Amazon, Inc.</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <b>Completed document receipt checklist </b> <br />
+                      <span> 24 Sept 2024 | 01:12 PM</span>
+                    </td>
+                    <td>REQ0170423</td>
+                    <td>Amazon, Inc.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+          <!-- Recent Activities End -->
+
+
+        </div>
+        <!-- Left Section End// -->
+
+        <!-- right Section Start -->
+        <div class="col-md-12 col-lg-6 col-xl-5">
+          <div class="card tab-cards">
+            <div class="card-body">
+              <a href="#"
+                class="list-group-item list-group-item-action d-flex align-items-center justify-content-between bottom-border">
+                <span class="ctitle mb-0"><img src="images/icon1.svg" alt="icon" class="card-icon"> Action center
+                </span>
+                <span class="viewall"> </span>
+              </a>
+
+              <div class="row">
+                <div class="col-md-12 col-xl-12">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar1" style="width:40%">
+                      <p class="par-text"> 30 </p>
+                    </div>
+                    <div class="progress-bar progress-bar2" style="width:10%">
+                      <p class="par-text"> 40 </p>
+                    </div>
+                    <div class="progress-bar progress-bar3" style="width:20%">
+                      <p class="par-text"> 8 </p>
+                    </div>
+                    <div class="progress-bar progress-bar4" style="width:30%">
+                      <p class="par-text"> 20 </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- My Pending Approvals -->
+              <div class="row mt-3">
+                <div class="col-md-12 col-xl-12">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <a href="#"
+                      class="list-group-item list-group-item-action d-flex align-items-center justify-content-between">
+                      <span class="badge pending-badge">
+                        <img src="images/pending_actions.svg" alt="icon" class="card-icon"> My Pending Approvals
+                      </span>
+                      <span class="viewall"> View All </span>
+                    </a>
+                  </div>
+                  <div class="card ">
+                    <div class="card-body">
+                      <table class="table-class table table-striped table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Activity</th>
+                            <th scope="col">A/C</th>
+                            <th scope="col">Customer</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- My Pending Approvals End //-->
+
+
+              <!-- Open Queues -->
+              <div class="row mt-3">
+                <div class="col-md-12 col-xl-12">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <a href="#"
+                      class="list-group-item list-group-item-action d-flex align-items-center justify-content-between">
+                      <span class="badge queues-badge">
+                        <img src="images/assignment.svg" alt="icon" class="card-icon"> Open Queues
+                      </span>
+                      <span class="viewall"> View All </span>
+                    </a>
+                  </div>
+                  <div class="card ">
+                    <div class="card-body">
+                      <table class="table-class table table-striped table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Activity</th>
+                            <th scope="col">A/C</th>
+                            <th scope="col">Customer</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Open Queues End //-->
+
+
+              <!-- Call follow ups -->
+              <div class="row mt-3">
+                <div class="col-md-12 col-xl-12">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <a href="#"
+                      class="list-group-item list-group-item-action d-flex align-items-center justify-content-between">
+                      <span class="badge callfollowbadge">
+                        <img src="images/add_ic_call.svg" alt="icon" class="card-icon"> Call follow ups
+                      </span>
+                      <span class="viewall"> View All </span>
+                    </a>
+                  </div>
+                  <div class="card ">
+                    <div class="card-body">
+                      <table class="table-class table table-striped table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Activity</th>
+                            <th scope="col">A/C</th>
+                            <th scope="col">Customer</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <b>Completed document receipt checklist </b> <br />
+                              <span> 24 Sept 2024 | 01:12 PM</span>
+                            </td>
+                            <td>REQ0170423</td>
+                            <td>Amazon, Inc.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Call follow ups End //-->
+
+
+            </div>
+          </div>
+        </div>
+        <!-- right Section End// -->
+
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+  <!-- [ Main Content ] end -->
+
+
+
+  <script src="js/simplebar.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/pcoded.js"></script>
+  <script src="js/feather.min.js"></script>
+  <!-- Chart -->
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+  <script>
+    const holdCtx = document.getElementById('holdChart').getContext('2d');
+    const holdChart = new Chart(holdCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['FDP', 'NQM', 'FDP'],
+        datasets: [{
+          data: [200000, 150000, 650000],
+          backgroundColor: ['#7C3AED', '#14B8A6', '#FACC15'],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          tooltip: { enabled: true }
+        },
+        cutout: '70%'
+      }
+    });
+
+    const failCtx = document.getElementById('failChart').getContext('2d');
+    const failChart = new Chart(failCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['FDP', 'NQM', 'FDP'],
+        datasets: [{
+          data: [200000, 150000, 650000],
+          backgroundColor: ['#F43F5E', '#FB923C', '#22C55E'],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          tooltip: { enabled: true }
+        },
+        cutout: '70%'
+      }
+    });
+  </script>
+
+
+
+
+
+</body>
+<!-- [Body] end -->
+
+</html>
